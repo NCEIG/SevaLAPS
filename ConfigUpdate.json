@@ -1,0 +1,60 @@
+{
+  "configVersion": 1,
+  "isConsumed": false,
+  "generalSettings": {
+	"maximumExecutionDelay": "00:01:00"
+  },
+  "webApiSettings": {
+    "url": "https://synergix-seva-nkk-p1-api.azurewebsites.net",
+    "useWebProxy": false,
+    "useDefaultWebProxy": false,
+    "proxyAddress": null,
+    "proxyPort": null,
+    "otpId": "55f300aa-2a87-4583-b294-5cad5df2f78d"
+  },
+  "localUserSettings": {
+    "passwordGenerationMethod": 1,
+	  "passwordExpiryMethod": 0,
+    "uniquePasswordMinLength": 16,
+    "accountStatus": 0,
+    "accountNamingConvention": "netconfig",
+    "accountRenameEnabled": true,
+    "credentialsRotationInterval": "7.00:00:00",
+    "enabled": true,
+    "runInterval": "1.00:00:00",
+    "memberOf": "S-1-5-32-545, S-1-32-556"
+  },
+  "builtInAdminSettings": {
+    "passwordGenerationMethod": 1,
+	  "passwordExpiryMethod": 0,
+    "uniquePasswordMinLength": 16,
+    "accountStatus": 0,
+    "accountNamingConvention": "ad-%computername%",
+    "accountRenameEnabled": true,
+    "credentialsRotationInterval": "7.00:00:00",
+    "enabled": true,
+    "runInterval": "1.00:00:00",
+    "memberOf": "S-1-5-32-544"
+  },
+  "backupAdminSettings": {
+    "passwordGenerationMethod": 1,
+	  "passwordExpiryMethod": 0,
+    "uniquePasswordMinLength": 16,
+    "accountStatus": 0,
+    "accountNamingConvention": "su-%computername%",
+    "accountRenameEnabled": true,
+    "credentialsRotationInterval": "8.00:00:00",
+    "enabled": true,
+    "runInterval": "1.00:00:00",
+    "memberOf": "S-1-32-544, S-1-5-32-555"
+  },
+  "serviceMonitoringSettings": {
+    "enabled": false
+  },
+  "inventoryMonitoringSettings": {
+    "WMIClasses": [
+       ],
+      "enabled": false,
+      "runInterval": "30.00:00:00"
+    }
+  }
